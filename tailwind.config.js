@@ -9,7 +9,16 @@ export default {
     "./error.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        primary: '#7fff00',
+        secondary: '#8b5cf6'
+
+      },
+      fontFamily: {
+        'display': ['Roboto Flex' ]
+      }
+    },
   },
   plugins: [],
 }

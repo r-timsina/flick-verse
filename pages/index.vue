@@ -5,7 +5,7 @@ const onSubmit = () => {};
 
 const { data, error, pending, refresh } = await useFetch(
   `http://www.omdbapi.com/`,
-  { query: { apikey: "68d99cc1", s: query } }
+  { query: { apikey: "API_KEY", s: query } }
 );
 </script>
 <template>

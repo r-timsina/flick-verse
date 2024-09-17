@@ -21,7 +21,7 @@ const { data, error, pending, refresh } = await useFetch(
     </form>
     <div class="w-full flex items-center justify-center gap-10 h-3/4 pt-6">
       <div
-        class="flex flex-col gap-6 md:w-1/3 p-6 bg-slate-700 h-full overflow-scroll"
+        class="flex flex-col gap-4 w-1/3 p-6 bg-slate-700 h-full overflow-hidden"
       >
         <ul v-for="movie in data.Search" :key="movie.imdbID">
           <li class="flex">

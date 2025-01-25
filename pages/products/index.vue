@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto my-8">
+  <!-- <div class="container mx-auto my-8">
     <h2 class="text-3xl font-bold text-center mb-6">Schoolwear Uniforms</h2>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
       <div
@@ -20,36 +20,36 @@
         </button>
       </div>
     </div>
-  </div>
+  </div> -->
 </template>
 
 <script setup>
 import { ref } from "vue";
 
-const products = ref([
-  {
-    id: 1,
-    name: "White School Shirt",
-    description: "100% Cotton, available in sizes S to XL.",
-    price: 19.99,
-    image: "/images/shirt.jpg",
-  },
-  {
-    id: 2,
-    name: "Navy Blue School Pants",
-    description: "Durable fabric, available in sizes S to XL.",
-    price: 29.99,
-    image: "/images/pants.jpg",
-  },
-  {
-    id: 3,
-    name: "Grey School Jumper",
-    description: "Warm and comfortable, available in sizes S to XL.",
-    price: 34.99,
-    image: "/images/jumper.jpg",
-  },
-  // Add more products as needed.
-]);
+// const products = ref([
+//   {
+//     id: 1,
+//     name: "White School Shirt",
+//     description: "100% Cotton, available in sizes S to XL.",
+//     price: 19.99,
+//     image: "/images/shirt.jpg",
+//   },
+//   {
+//     id: 2,
+//     name: "Navy Blue School Pants",
+//     description: "Durable fabric, available in sizes S to XL.",
+//     price: 29.99,
+//     image: "/images/pants.jpg",
+//   },
+//   {
+//     id: 3,
+//     name: "Grey School Jumper",
+//     description: "Warm and comfortable, available in sizes S to XL.",
+//     price: 34.99,
+//     image: "/images/jumper.jpg",
+//   },
+//   // Add more products as needed.
+// ]);
 </script>
 
 <style scoped>

@@ -11,6 +11,4 @@
   <slot />
 </template>
 
-<style scoped>
-/* Add any specific styles here */
-</style>
+<style scoped></style>
